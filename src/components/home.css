@@ -1,0 +1,46 @@
+.home-container {
+    padding: 5%;
+}
+
+.home-image-container {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-image-container-img {
+    max-width: 85%;
+}
+
+.laptop-screen{
+    position: absolute;
+    top: 8.5%;
+    left: 25.8%;
+    width: 49%;
+    height: 67%;
+    background-color: rgb(255, 255, 255);
+}
+
+.laptop-screen-container {
+    width: 100%;
+    height: 100%;
+}
+
+.laptop-screen-container p {
+    margin: 0;
+    padding-bottom: 2% ;
+    font-size: 1.5vw;
+}
+
+.paragraph-container {
+    padding: 5%;
+}
+
+.projects-container {
+}
+
+
+
+
