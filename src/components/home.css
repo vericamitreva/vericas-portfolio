@@ -1,5 +1,8 @@
 .home-container {
-    padding: 5%;
+    position: relative;
+    background-image: url(./../assets/background.jpg);
+    background-size: 100%;
+    z-index: -99;
 }
 
 .home-image-container {
@@ -38,9 +41,15 @@
     padding: 5%;
 }
 
-.projects-container {
+.home-bg {
+    position: absolute;
+    z-index:-1;
+    background-color: #ffffff;
+    /* background-image: url(./../assets/table.jpg); */
+    top: 70%;
+    width: 100%;
+    height: 100%;
 }
-
 
 
 
